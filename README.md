@@ -1,8 +1,8 @@
-![ci](https://github.com/bndw/wifi-card/workflows/ci/badge.svg)
-
 # <img width="32px" src="./public/images/wifi.png"> WiFi Card
 
-https://wificard.io
+Source Repo: https://github.com/bndw/wifi-card
+
+Test your repo wiht the Folowing Website: https://wificard.io
 
 Print a simple card with your WiFi login details. Tape it to the fridge, keep it in your wallet, hang on the wall for guests at home or in the hotel, etc.
 
@@ -69,6 +69,7 @@ We would love for you to contribute to different languages and help make it even
 | Hindi                        | [Pushpender](https://github.com/PushpenderSaini0)  |
 | Catalan                      | [aniol](https://github.com/aniol)                  |
 | German                       | [devofthings](https://github.com/devofthings)      |
+| Swiss German                 | [ghostingexe](https://github.com/Ghostkingexe)     |
 | Greek                        | [nautilus7](https://github.com/nautilus7)          |
 | Indonesia                    | [nyancodeid](https://github.com/nyancodeid)        |
 | Polish                       | [olekstomek](https://github.com/olekstomek)        |
