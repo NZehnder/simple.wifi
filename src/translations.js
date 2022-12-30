@@ -1,0 +1,118 @@
+export const Translations = [
+  {
+    id: 'en-US',
+    name: 'English',
+    translation: {
+      title: 'simple.WiFi Card Creator',
+      'desc.use':
+        'Create a simple card with your WiFi login details. Use it to easily share the internal WiFi among employees or to share the Guest-Wifi with customers.',
+      'desc.private':'Your WiFi information is never sent to the server.',
+      'wifi.identity': 'Identity',
+      'wifi.identity.placeholder': 'Username',
+      'wifi.login': 'WiFi Login',
+      'wifi.name': 'Network name',
+      'wifi.name.hiddenSSID': 'Hidden SSID',
+      'wifi.name.placeholder': 'WiFi Network name',
+      'wifi.password': 'Password',
+      'wifi.password.placeholder': 'Password',
+      'wifi.password.hide': 'Hide password',
+      'wifi.password.encryption': 'Encryption',
+      'wifi.password.encryption.none': 'None',
+      'wifi.encryption.eapMethod': 'EAP method',
+      'wifi.tip':
+        "Point your phone's camera at the QR Code to connect automatically",
+      'wifi.alert.name': 'Network name cannot be empty',
+      'wifi.alert.password': 'Password cannot be empty',
+      'wifi.alert.password.length.5':
+        'Password must be at least 5 characters, or change the encryption to "None"',
+      'wifi.alert.password.length.8':
+        'Password must be at least 8 characters, or change the encryption to "None"',
+      'wifi.alert.eapIdentity': 'Identity cannot be empty',
+      'button.rotate': 'Rotate',
+      'button.print': 'Print',
+      'made.by':'Wifi-Card created by:',
+      'madeby.name': 'Bndw Github',    
+      'custom.by':'Customized by:',
+      'customized.name':'HEAD IT Solutions',
+      select: 'Select Language',
+    },
+  },
+  {
+    id: 'de-DE',
+    name: 'German',
+    translation: {
+      title: 'simple.WiFi Card Creator',
+      'desc.use':
+        'Erstellen Sie eine simple Karte mit Ihren WLAN-Zugangsdaten. Verwende Sie diese, um einfach das interne WLAN unter den Mitarbeitern einzurichten oder um das GAST-WLAN mit den Kunden zu teilen.',
+      'desc.private':'Deine Zugangsdaten werden niemals zum Server gesendet.',
+      'wifi.identity': 'Identität',
+      'wifi.identity.placeholder': 'Nutzername',
+      'wifi.login': 'WLAN-Zugangsdaten',
+      'wifi.name': 'WLAN-Netzwerkname',
+      'wifi.name.placeholder': 'WLAN-Netzwerkname',
+      'wifi.password': 'Passwort',
+      'wifi.password.placeholder': 'Passwort',
+      'wifi.password.hide': 'Passwort verstecken',
+      'wifi.name.hiddenSSID': 'Versteckte SSID',
+      'wifi.password.encryption': 'Verschlüsselung',
+      'wifi.password.encryption.none': 'Keine',
+      'wifi.encryption.eapMethod': 'EAP Methode',
+      'wifi.tip':
+        'Zeige mit der Kamera deines Handys auf den QR-Code, um automatisch eine Verbindung herzustellen',
+      'wifi.alert.name': 'Der Netzwerkname darf nicht leer sein',
+      'wifi.alert.password': 'Das Passwort darf nicht leer sein',
+      'wifi.alert.password.length.5':
+        'Das Passwort muss mindestends 5 Zeichen lang sein, oder stelle die Verschlüsselung auf "Keine"',
+      'wifi.alert.password.8':
+        'Das Passwort muss mindestends 8 Zeichen lang sein, oder stelle die Verschlüsselung auf "Keine"',
+      'wifi.alert.eapIdentity': 'Die Identität darf nicht leer sein',
+      'button.rotate': 'Drehen',
+      'button.print': 'Drucken',
+      'made.by':'Wifi-Card erstellt von:',
+      'madeby.name': 'bndw Github',    
+      'custom.by':'Angepasst durch:',
+      'customized.name':'HEAD IT Solutions',
+      select: 'Sprache auswählen',
+    },
+  },
+  {
+    id: 'de-CH',
+    name: 'Swiss German',
+    translation: {
+      title: 'simple.WiFi Card Creator',
+      'desc.use':
+        'Sie chönd met dem Tool en eifachi Charte mit ehrene WLAN-Date erstelle. Verwänded Sie die, om eifach ehres interne WLAN unter de Metarbeiter zteile oder om es GASCHT-WLAN mit em Chond zteile.',
+      'desc.private':'Dini Zugegangsdate werded nie zom Server gsändet.',
+      'wifi.identity': 'Identität',
+      'wifi.identity.placeholder': 'Notzername',
+      'wifi.login': 'WLAN-Zugangsdate',
+      'wifi.name': 'WLAN-Netzwärchname',
+      'wifi.name.placeholder': 'WLAN-Netzwärchname',
+      'wifi.password': 'Passwort',
+      'wifi.password.placeholder': 'Passwort',
+      'wifi.password.hide': 'Passwort verstecke',
+      'wifi.name.hiddenSSID': 'Versteckti SSID',
+      'wifi.password.encryption': 'Verschlösselig',
+      'wifi.password.encryption.none': 'Keini',
+      'wifi.encryption.eapMethod': 'EAP Methode',
+      'wifi.tip':
+        'Zeig mit dinere Kamera vom Handys auf de QR-Code, um automatisch en Verbindung herzstelle',
+      'wifi.alert.name': 'De Netzwerkname dörf ned leer sii',
+      'wifi.alert.password': 'Das Passwort dörf ned leer sii',
+      'wifi.alert.password.length.5':
+        'Das Passwort muss mendestends 5 Zeiche lang sii, oder stell d Verschlösselig auf "Keini"',
+      'wifi.alert.password.8':
+        'Das Passwort muss mindestends 8 Zeichen lang sii, oder stell d Verschlösselig auf "Keini"',
+      'wifi.alert.eapIdentity': 'Die Identität darf ned leer sii',
+      'button.rotate': 'Dreie',
+      'button.print': 'Drocke',
+      'made.by':'Wifi-Card erstellt vom:',
+      'madeby.name': 'bndw Github',    
+      'custom.by':'Apasst dorch:',
+      'customized.name':'HEAD IT Solutions',
+      select: 'Sprach uswähle',
+    },
+  },
+].sort((a, b) => {
+  return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1;
+});
