@@ -11,7 +11,7 @@ import { mergeTheme, defaultTheme } from 'evergreen-ui'
               borderRadius: 5,
               backgroundColor: '#00519E',
               _hover: {
-                backgroundColor: '#00519E',
+                backgroundColor: '#0084ff',
               },
               _active: {
                 backgroundColor: '#00519E',
