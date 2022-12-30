@@ -8,12 +8,16 @@
     "@testing-library/user-event": "^13.2.1",
     "evergreen-ui": "^6.3.0",
     "i18next": "^20.3.5",
-    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-browser-languagedetector": "7.0.1",
     "qrcode.react": "^1.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-i18next": "^11.11.4",
-    "react-scripts": "^4.0.3"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "12.1.1",
+    "react-scripts": "5.0.1",
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "@mui/material": "5.11.2"
+    
   },
   "devDependencies": {
     "husky": "^7.0.1",
