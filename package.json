@@ -16,7 +16,7 @@
     "react-scripts": "^4.0.3"
   },
   "devDependencies": {
-    "husky": "^7.0.1",
+    "husky": "^9.1.1",
     "prettier": "2.3.2"
   },
   "scripts": {
